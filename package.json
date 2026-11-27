@@ -1,0 +1,22 @@
+{
+  "name": "visual-analytics",
+  "version": "1.0.0",
+  "description": "Sistema web interativo de Visual Analytics desenvolvido com D3.js e DuckDB-Wasm.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@duckdb/duckdb-wasm": "^1.33.1-dev57.0",
+    "d3": "^7.9.2"
+  },
+  "devDependencies": {
+    "vite": "^8.4.0"
+  }
+}
